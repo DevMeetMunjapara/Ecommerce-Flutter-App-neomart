@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:neomart/view/splash_screen.dart';
+import 'package:neomart/view/Pages/home.dart';
+import 'package:neomart/view/login%20&%20singUp/changePassword.dart';
+import 'package:neomart/view/login%20&%20singUp/forgot.dart';
+import 'package:neomart/view/login%20&%20singUp/otp.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,8 +22,10 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData(fontFamily: "Urbanist"),
-          home: splashScreen(),
+          theme: ThemeData(
+              fontFamily: "Urbanist", scaffoldBackgroundColor: Colors.white),
+          // home: splashScreen(),
+          home: Home(),
         );
       },
     );

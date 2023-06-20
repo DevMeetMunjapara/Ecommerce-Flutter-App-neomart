@@ -38,6 +38,8 @@ dependencies:
   flutter_svg: any
   flutter_screenutil: any
   get: any
+  pinput: any
+
 
 
 

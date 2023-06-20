@@ -3,9 +3,10 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:neomart/widget/CostomButton.dart';
-import 'package:neomart/widget/appColor.dart';
-import 'package:neomart/widget/appImage.dart';
+import 'package:neomart/view/widget/CostomButton.dart';
+import 'package:neomart/view/widget/appImage.dart';
+
+import '../widget/appColor.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -235,12 +236,12 @@ class _LoginState extends State<Login> {
               children: [
                 Text(
                   "Don’t have an account? ",
-                  style: TextStyle(color: AppColor.deepwhite),
+                  style: TextStyle(fontSize: 16.sp, color: AppColor.deepwhite),
                 ),
                 Text(
                   "Sign Up",
                   style:
-                      TextStyle(fontSize: 18.sp, fontWeight: FontWeight.bold),
+                      TextStyle(fontSize: 16.sp, fontWeight: FontWeight.bold),
                 )
               ],
             )
