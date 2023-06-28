@@ -7,7 +7,7 @@ class CostomAppBar {
   AppBar AppbarWithTitle(String title) {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: Color.fromARGB(255, 245, 245, 247),
       leading: Padding(
         padding: EdgeInsets.only(left: 10.sp, top: 15.sp),
         child: Icon(
@@ -29,7 +29,7 @@ class CostomAppBar {
   AppBar HomeAppbar() {
     return AppBar(
       elevation: 0,
-      backgroundColor: Color.fromARGB(255, 255, 255, 255),
+      backgroundColor: Color.fromARGB(255, 245, 245, 247),
       title: Padding(
           padding: EdgeInsets.only(left: 10.sp, top: 25.sp),
           child: SvgPicture.asset(
